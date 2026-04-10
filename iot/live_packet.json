@@ -1,0 +1,1 @@
+{"timestamp": 1767673215.1010597, "raw_payload": {"temp": 37, "humidity": 41, "device": "NodeMCU-ESP8266"}, "ciphertext_hex": "8bc493cf11d0aa0094aed21fb2bb446460c093ec79106cde5ebb098a6e2f995ac0047aaafda73edc576c49b1b4fa6368f67f1bf2f8abd7465f3cb506f0b5a90dcabc80016311a59e2c", "status": "Buffered"}

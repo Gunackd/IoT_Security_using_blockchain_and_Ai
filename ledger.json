@@ -1,0 +1,709 @@
+{
+    "chain": [
+        {
+            "index": 0,
+            "timestamp": 1767597951.7267406,
+            "data": {
+                "event": "GENESIS",
+                "timestamp": 1767597951.7257457
+            },
+            "hash": "b0ded81d5f876ae92b2d812eb65dc946cdb5cd275c4491f120a4d6e57fad3d90",
+            "prev_hash": "0"
+        },
+        {
+            "index": 1,
+            "timestamp": 1767598014.9784124,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 23.33,
+                "approved": true
+            },
+            "hash": "1d0b3ae3414d81792b0c6e0ae62c108f58a095073494b23a24f25c09ddc05c53",
+            "prev_hash": "b0ded81d5f876ae92b2d812eb65dc946cdb5cd275c4491f120a4d6e57fad3d90"
+        },
+        {
+            "index": 2,
+            "timestamp": 1767598022.6875076,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 23.33,
+                "approved": true
+            },
+            "hash": "59ca46ab564648cb659979e0dae3c49e514ab11360e03b6bbda0c1534c3d8bd0",
+            "prev_hash": "1d0b3ae3414d81792b0c6e0ae62c108f58a095073494b23a24f25c09ddc05c53"
+        },
+        {
+            "index": 3,
+            "timestamp": 1767598030.513107,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Eve",
+                "risk": 23.33,
+                "approved": false
+            },
+            "hash": "96a7042dc64592ad6ec392d11ea2037d790c75267f0f132e55b7b28f716963ea",
+            "prev_hash": "59ca46ab564648cb659979e0dae3c49e514ab11360e03b6bbda0c1534c3d8bd0"
+        },
+        {
+            "index": 4,
+            "timestamp": 1767598096.519414,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Alice",
+                "risk": 19.06,
+                "approved": true
+            },
+            "hash": "d46e11251acc658b3debf41add2dd40e7f10f598bc79f6c81b76f68fc001fefa",
+            "prev_hash": "96a7042dc64592ad6ec392d11ea2037d790c75267f0f132e55b7b28f716963ea"
+        },
+        {
+            "index": 5,
+            "timestamp": 1767599245.5355606,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 24.48,
+                "approved": true
+            },
+            "hash": "1233834f62d8f5c738b73926e79ea013c03cf8a904ff7d42cf6cc184bf776f77",
+            "prev_hash": "d46e11251acc658b3debf41add2dd40e7f10f598bc79f6c81b76f68fc001fefa"
+        },
+        {
+            "index": 6,
+            "timestamp": 1767599501.6313257,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 20.97,
+                "approved": true
+            },
+            "hash": "b157698de22b8e5a5b17927ffb0b2eb344ecc6b6451198c6fb2fe8dfdb025446",
+            "prev_hash": "1233834f62d8f5c738b73926e79ea013c03cf8a904ff7d42cf6cc184bf776f77"
+        },
+        {
+            "index": 7,
+            "timestamp": 1767599514.2363474,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Eve",
+                "risk": 20.97,
+                "approved": false
+            },
+            "hash": "9bc2eedaebbcb570ba97bded12136c958d1acd7e1ccd6ebe92e087707bc55bdc",
+            "prev_hash": "b157698de22b8e5a5b17927ffb0b2eb344ecc6b6451198c6fb2fe8dfdb025446"
+        },
+        {
+            "index": 8,
+            "timestamp": 1767599523.935477,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 33.99,
+                "approved": true
+            },
+            "hash": "8e77c8f5337f2d40529a9d6c28d5ae9b2a5271105a1767fae20511cefff3c257",
+            "prev_hash": "9bc2eedaebbcb570ba97bded12136c958d1acd7e1ccd6ebe92e087707bc55bdc"
+        },
+        {
+            "index": 9,
+            "timestamp": 1767599639.7458112,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 24.08,
+                "approved": true
+            },
+            "hash": "00378b6ae8b72847a27c4429e4ef9e0d012ea51775a8601fac2dead1dd0178d9",
+            "prev_hash": "8e77c8f5337f2d40529a9d6c28d5ae9b2a5271105a1767fae20511cefff3c257"
+        },
+        {
+            "index": 10,
+            "timestamp": 1767599670.6008952,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Eve",
+                "risk": 24.08,
+                "approved": false
+            },
+            "hash": "a0551f60d1c35f322073079751255b476888ef6f49f7f33ae1a83b8ef2558931",
+            "prev_hash": "00378b6ae8b72847a27c4429e4ef9e0d012ea51775a8601fac2dead1dd0178d9"
+        },
+        {
+            "index": 11,
+            "timestamp": 1767599684.2371287,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 26.75,
+                "approved": true
+            },
+            "hash": "fff55852ab54d41fee3603176522d759b31a0aab64bd11904cc2157bcfa1511a",
+            "prev_hash": "a0551f60d1c35f322073079751255b476888ef6f49f7f33ae1a83b8ef2558931"
+        },
+        {
+            "index": 12,
+            "timestamp": 1767599711.891999,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Eve",
+                "risk": 24.08,
+                "approved": false
+            },
+            "hash": "d5b2d0e4d0069f10959c9fae83e325005b9126daff45b55facf57dcc14e05071",
+            "prev_hash": "fff55852ab54d41fee3603176522d759b31a0aab64bd11904cc2157bcfa1511a"
+        },
+        {
+            "index": 13,
+            "timestamp": 1767599713.4522567,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Eve",
+                "risk": 24.08,
+                "approved": false
+            },
+            "hash": "1cc84be93363168c4860040aaae7cfd14803fcd6dd12f55738bcd1d609cf0f81",
+            "prev_hash": "d5b2d0e4d0069f10959c9fae83e325005b9126daff45b55facf57dcc14e05071"
+        },
+        {
+            "index": 14,
+            "timestamp": 1767599747.2021441,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 35.1,
+                "approved": true
+            },
+            "hash": "11040e17747f549151ffe6db3dfd0caa9a2191f9055f2545a97dafa38f59b81e",
+            "prev_hash": "1cc84be93363168c4860040aaae7cfd14803fcd6dd12f55738bcd1d609cf0f81"
+        },
+        {
+            "index": 15,
+            "timestamp": 1767599759.4354532,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 21.1,
+                "approved": true
+            },
+            "hash": "a065015d5502a682373e4604704145384ac6062d6c903b76c44a9733e10142fd",
+            "prev_hash": "11040e17747f549151ffe6db3dfd0caa9a2191f9055f2545a97dafa38f59b81e"
+        },
+        {
+            "index": 16,
+            "timestamp": 1767599766.0778582,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 27.08,
+                "approved": true
+            },
+            "hash": "363df7c3022df2c6c4332afc1326d759d786e2802affbd297231488daef19595",
+            "prev_hash": "a065015d5502a682373e4604704145384ac6062d6c903b76c44a9733e10142fd"
+        },
+        {
+            "index": 17,
+            "timestamp": 1767599819.9813085,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 24.47,
+                "approved": true
+            },
+            "hash": "2a67d6c1d07fd304ccecf739d5aef4cb8a5827fadfe39f6e2c796700dcaf95e7",
+            "prev_hash": "363df7c3022df2c6c4332afc1326d759d786e2802affbd297231488daef19595"
+        },
+        {
+            "index": 18,
+            "timestamp": 1767599952.1392992,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Alice",
+                "risk": 19.76,
+                "approved": true
+            },
+            "hash": "dbf2be88b00ff827f2fec34efbbf6ffc91f6c55252cd88ce074aa1d253e3d3d3",
+            "prev_hash": "2a67d6c1d07fd304ccecf739d5aef4cb8a5827fadfe39f6e2c796700dcaf95e7"
+        },
+        {
+            "index": 19,
+            "timestamp": 1767599959.063055,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 19.76,
+                "approved": true
+            },
+            "hash": "0f53c89e775754b5a8cde1a30027064b09b8404f3d6ec23cd7f6276707f3b541",
+            "prev_hash": "dbf2be88b00ff827f2fec34efbbf6ffc91f6c55252cd88ce074aa1d253e3d3d3"
+        },
+        {
+            "index": 20,
+            "timestamp": 1767599967.4631126,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Eve",
+                "risk": 19.03,
+                "approved": false
+            },
+            "hash": "952206cb9a20424dc45fbd51185d144a1a85dfca83f806cb7dae5d5587bc6cfe",
+            "prev_hash": "0f53c89e775754b5a8cde1a30027064b09b8404f3d6ec23cd7f6276707f3b541"
+        },
+        {
+            "index": 21,
+            "timestamp": 1767599979.4955177,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 100,
+                "approved": false
+            },
+            "hash": "8581cf51e47b0501d8a5d5b00360aa02291cb3c86f45d47dbe5f82ea54cddc9b",
+            "prev_hash": "952206cb9a20424dc45fbd51185d144a1a85dfca83f806cb7dae5d5587bc6cfe"
+        },
+        {
+            "index": 22,
+            "timestamp": 1767672831.9306648,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Eve",
+                "risk": 15.7,
+                "approved": false
+            },
+            "hash": "9d7b6224da8539afdbddc6857bcb40659503fa8a362c53cb1a8f3152ad1d22c1",
+            "prev_hash": "8581cf51e47b0501d8a5d5b00360aa02291cb3c86f45d47dbe5f82ea54cddc9b"
+        },
+        {
+            "index": 23,
+            "timestamp": 1767672847.924083,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Alice",
+                "risk": 17.73,
+                "approved": true
+            },
+            "hash": "1275742ceab1ea52823b139a8611a1267b828509ccd8e15b816df57171cd8c92",
+            "prev_hash": "9d7b6224da8539afdbddc6857bcb40659503fa8a362c53cb1a8f3152ad1d22c1"
+        },
+        {
+            "index": 24,
+            "timestamp": 1767672859.2905462,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 100,
+                "approved": false
+            },
+            "hash": "c178790df6ceeff71d90bb5d544c0a1f70740567926a5f4de999d591312c1f44",
+            "prev_hash": "1275742ceab1ea52823b139a8611a1267b828509ccd8e15b816df57171cd8c92"
+        },
+        {
+            "index": 25,
+            "timestamp": 1772428705.322576,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 17.25,
+                "approved": true
+            },
+            "hash": "04a1fa2d60978e9c731197cfca4c38b10a92defd469210ecb506154441b352b8",
+            "prev_hash": "c178790df6ceeff71d90bb5d544c0a1f70740567926a5f4de999d591312c1f44"
+        },
+        {
+            "index": 26,
+            "timestamp": 1772428722.213325,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Eve",
+                "risk": 17.25,
+                "approved": false
+            },
+            "hash": "6457c9f3fc282a6911c9434448200d8a8a927d919a237b22e240be23f17f08db",
+            "prev_hash": "04a1fa2d60978e9c731197cfca4c38b10a92defd469210ecb506154441b352b8"
+        },
+        {
+            "index": 27,
+            "timestamp": 1772428735.0636325,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 16.91,
+                "approved": true
+            },
+            "hash": "8b670efa8b068dedd51c1253ac73e2dfad717998f2ca3baddab88544aba4c4d0",
+            "prev_hash": "6457c9f3fc282a6911c9434448200d8a8a927d919a237b22e240be23f17f08db"
+        },
+        {
+            "index": 28,
+            "timestamp": 1772428742.1358182,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 100,
+                "approved": false
+            },
+            "hash": "f552a458c65bb6b543b04a302bfd9f4b00ecf853a95bd86ad2fca9c17e24600b",
+            "prev_hash": "8b670efa8b068dedd51c1253ac73e2dfad717998f2ca3baddab88544aba4c4d0"
+        },
+        {
+            "index": 29,
+            "timestamp": 1772428879.9892964,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Alice",
+                "risk": 16.0,
+                "approved": true
+            },
+            "hash": "fd6c8cba55fe0667c84ea712e1353517e4f5a90b02ccdca932ec71c950696ff0",
+            "prev_hash": "f552a458c65bb6b543b04a302bfd9f4b00ecf853a95bd86ad2fca9c17e24600b"
+        },
+        {
+            "index": 30,
+            "timestamp": 1772428907.264578,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 18.14,
+                "approved": true
+            },
+            "hash": "e46efa39860c65c60fd98ac6d888e1341a1d5cc0456a2ab2939e4003b2fa3a13",
+            "prev_hash": "fd6c8cba55fe0667c84ea712e1353517e4f5a90b02ccdca932ec71c950696ff0"
+        },
+        {
+            "index": 31,
+            "timestamp": 1772428916.5551972,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Eve",
+                "risk": 21.77,
+                "approved": false
+            },
+            "hash": "3e704194d7b37c484c5df8cb0a462284e7d48ec8a162e012927c9c8c1b2d7681",
+            "prev_hash": "e46efa39860c65c60fd98ac6d888e1341a1d5cc0456a2ab2939e4003b2fa3a13"
+        },
+        {
+            "index": 32,
+            "timestamp": 1772428936.3493626,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Bob",
+                "risk": 100,
+                "approved": false
+            },
+            "hash": "c1bdc73b19459b7d661a615b6354fdcbb12a7cddc2e3b6d9d9d907482cf842b0",
+            "prev_hash": "3e704194d7b37c484c5df8cb0a462284e7d48ec8a162e012927c9c8c1b2d7681"
+        },
+        {
+            "index": 33,
+            "timestamp": 1772428984.0437655,
+            "data": {
+                "event": "ACCESS_EVALUATION",
+                "user": "Alice",
+                "risk": 100,
+                "approved": false
+            },
+            "hash": "9a56dd861393f000ae7c775644b373e7219eca98990d2629ae802df951ba923d",
+            "prev_hash": "c1bdc73b19459b7d661a615b6354fdcbb12a7cddc2e3b6d9d9d907482cf842b0"
+        }
+    ],
+    "access_requests": [
+        {
+            "request_id": "6dc153230b11db1f61c4c92dbff88306",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 23.33,
+            "timestamp": 1767598014.9784124,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "4d5831190bb41919490aa0257941f358",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 23.33,
+            "timestamp": 1767598022.6875076,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "dbf7b6c770e781d487d1396d966719c5",
+            "user_id": "Eve",
+            "resource_id": "Sensor-01",
+            "risk_score": 23.33,
+            "timestamp": 1767598030.513107,
+            "approved": false,
+            "status_reason": "Low Static Trust Score"
+        },
+        {
+            "request_id": "7cba02dbc51337ff5404f1c8d3cb55ad",
+            "user_id": "Alice",
+            "resource_id": "Sensor-01",
+            "risk_score": 19.06,
+            "timestamp": 1767598096.519414,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "5452907770e000badaaa78222c35afaa",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 24.48,
+            "timestamp": 1767599245.5355606,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "2ee5c9e3a2b67e2d38e9d867132aaf66",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 20.97,
+            "timestamp": 1767599501.6313257,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "f7d824d24849932329f4c2ceb2c67cd8",
+            "user_id": "Eve",
+            "resource_id": "Sensor-01",
+            "risk_score": 20.97,
+            "timestamp": 1767599514.2363474,
+            "approved": false,
+            "status_reason": "Low Static Trust Score"
+        },
+        {
+            "request_id": "9326de1155582e254b8fbd57c6461b28",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 33.99,
+            "timestamp": 1767599523.935477,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "476c653e6ed91a4e0d7f25da3fe46a06",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 24.08,
+            "timestamp": 1767599639.7458112,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "e9baad5f34e16f406a54aa320c7aab3c",
+            "user_id": "Eve",
+            "resource_id": "Sensor-01",
+            "risk_score": 24.08,
+            "timestamp": 1767599670.6008952,
+            "approved": false,
+            "status_reason": "Low Static Trust Score"
+        },
+        {
+            "request_id": "e273106acafc3d99662bf43acc713153",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 26.75,
+            "timestamp": 1767599684.2371287,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "5b392e2612220e6a4e659ccb4d4d30b7",
+            "user_id": "Eve",
+            "resource_id": "Sensor-01",
+            "risk_score": 24.08,
+            "timestamp": 1767599711.891999,
+            "approved": false,
+            "status_reason": "Low Static Trust Score"
+        },
+        {
+            "request_id": "84c65d57a569f0c30ca3508568569d18",
+            "user_id": "Eve",
+            "resource_id": "Sensor-01",
+            "risk_score": 24.08,
+            "timestamp": 1767599713.4522567,
+            "approved": false,
+            "status_reason": "Low Static Trust Score"
+        },
+        {
+            "request_id": "7a6b09975d9ff3c6540345fd6ebe5975",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 35.1,
+            "timestamp": 1767599747.2011454,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "18b2de2369a90f8e860cf7a3bcb94b21",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 21.1,
+            "timestamp": 1767599759.4354532,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "6f117120fe055e977ce1bd626be9b34f",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 27.08,
+            "timestamp": 1767599766.0778582,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "7ab779fe99c4b07c0e8ad27b90e08c66",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 24.47,
+            "timestamp": 1767599819.9813085,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "9688c9b8281565a95118378a5625c8ea",
+            "user_id": "Alice",
+            "resource_id": "Sensor-01",
+            "risk_score": 19.76,
+            "timestamp": 1767599952.1392992,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "f04b0584490d8ac32777b956ca8b6f8a",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 19.76,
+            "timestamp": 1767599959.063055,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "8a304992078ea4b43c4fd46e48a9571a",
+            "user_id": "Eve",
+            "resource_id": "Sensor-01",
+            "risk_score": 19.03,
+            "timestamp": 1767599967.4631126,
+            "approved": false,
+            "status_reason": "Low Static Trust Score"
+        },
+        {
+            "request_id": "2cd1b36d3b3fbfcc549239ea58c12e56",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 100,
+            "timestamp": 1767599979.4955177,
+            "approved": false,
+            "status_reason": "High Risk Detected (Score: 100)"
+        },
+        {
+            "request_id": "7a87b1e9750d0ca543ac1ad190882d44",
+            "user_id": "Eve",
+            "resource_id": "Sensor-01",
+            "risk_score": 15.7,
+            "timestamp": 1767672831.9292154,
+            "approved": false,
+            "status_reason": "Low Static Trust Score"
+        },
+        {
+            "request_id": "8ffe6ecb84b84111755660c26ff72786",
+            "user_id": "Alice",
+            "resource_id": "Sensor-01",
+            "risk_score": 17.73,
+            "timestamp": 1767672847.924083,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "40f63442f1ed1cf3fbcd6860fdbe87bf",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 100,
+            "timestamp": 1767672859.2905462,
+            "approved": false,
+            "status_reason": "High Risk Detected (Score: 100)"
+        },
+        {
+            "request_id": "4b95f8be4dde2582044b5c03e31cc5d7",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 17.25,
+            "timestamp": 1772428705.322576,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "26f3db6c69fa2556c7638aa32a4d9369",
+            "user_id": "Eve",
+            "resource_id": "Sensor-01",
+            "risk_score": 17.25,
+            "timestamp": 1772428722.213325,
+            "approved": false,
+            "status_reason": "Low Static Trust Score"
+        },
+        {
+            "request_id": "25c48058f118c8dfb5ee50c44d1dd03e",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 16.91,
+            "timestamp": 1772428735.0636325,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "272aa9ea853b85870f7523c63caa7654",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 100,
+            "timestamp": 1772428742.1358182,
+            "approved": false,
+            "status_reason": "High Risk Detected (Score: 100)"
+        },
+        {
+            "request_id": "9b267f809f58cf336cc35abfe6967c5a",
+            "user_id": "Alice",
+            "resource_id": "Sensor-01",
+            "risk_score": 16.0,
+            "timestamp": 1772428879.9892964,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "227c943694c40b203541db340880233d",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 18.14,
+            "timestamp": 1772428907.264578,
+            "approved": true,
+            "status_reason": "Access Granted"
+        },
+        {
+            "request_id": "4d28264dec3f9eb7e1f88ed3d3336170",
+            "user_id": "Eve",
+            "resource_id": "Sensor-01",
+            "risk_score": 21.77,
+            "timestamp": 1772428916.5551972,
+            "approved": false,
+            "status_reason": "Low Static Trust Score"
+        },
+        {
+            "request_id": "17d1690271388c2e0ba9277b31bb24a2",
+            "user_id": "Bob",
+            "resource_id": "Sensor-01",
+            "risk_score": 100,
+            "timestamp": 1772428936.3493626,
+            "approved": false,
+            "status_reason": "High Risk Detected (Score: 100)"
+        },
+        {
+            "request_id": "1ad772b1bcb3d5a0a90febf6d46bd863",
+            "user_id": "Alice",
+            "resource_id": "Sensor-01",
+            "risk_score": 100,
+            "timestamp": 1772428984.0437655,
+            "approved": false,
+            "status_reason": "High Risk Detected (Score: 100)"
+        }
+    ]
+}
